@@ -6,6 +6,7 @@ setup(
     long_description='readme.md',
     author='nyamel',
     author_email='twilight6sachirin@gmail.com',
+    url='https://github.com/nyamel/pdf2md',
     licence='MIT',
     install_requests=['pdf2image','click'],
     entry_points={

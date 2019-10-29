@@ -1,0 +1,6 @@
+setup.py
+pdf2md.egg-info/PKG-INFO
+pdf2md.egg-info/SOURCES.txt
+pdf2md.egg-info/dependency_links.txt
+pdf2md.egg-info/entry_points.txt
+pdf2md.egg-info/top_level.txt

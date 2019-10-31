@@ -39,7 +39,7 @@ def cmd(pdf_file, width, height, fullsize, linefeed):
     except FileExistsError:
         pass
 
-    click.echo('    converting...')
+    click.echo('   Converting...')
     images = convert_from_path(path, dpi=200, size=set_size(width, height,fullsize))
 
     i = 0
@@ -47,7 +47,7 @@ def cmd(pdf_file, width, height, fullsize, linefeed):
         for image in bar:
             image.save(f'{folder_path}/slide{i}.png')
             i += 1
-    click.echo('    success!!')
+    click.echo('   Success!!')
 
     f = open(f'{folder_path}.md', 'w')
     folder_name = os.path.basename(folder_path)

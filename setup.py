@@ -8,9 +8,9 @@ setup(
     author_email='twilight6sachirin@gmail.com',
     url='https://github.com/nyamel/pdf2md',
     licence='MIT',
-    install_requests=['pdf2image','click'],
+    install_requests=['pdf2image', 'poppler', 'pillow', 'click'],
     entry_points={
-        'console_scripts':[
+        'console_scripts': [
             'pdf2md=src.core:main'
         ]
     }

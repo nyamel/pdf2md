@@ -1,23 +1,7 @@
 # pdf2md
 ====
 
-Overview
+## どんなやつ？
 
-## Description
-
-## Demo
-
-## VS. 
-
-## Requirement
-
-## Usage
-
-## Install
-
-## Contribution
-
-## Licence
-
-## Author
+PDFをpngに変換して、Markdownにパスを埋め込む作業を一瞬でやるやつです。
 
